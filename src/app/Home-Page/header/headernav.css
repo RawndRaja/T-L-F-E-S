@@ -1,0 +1,53 @@
+.nav-1:hover .text-logo{
+    color: rgb(189, 189, 9);
+    transition: 0.3s;
+}   
+.nav-1{
+  flex: 0.9 10;
+}
+.link-nav{
+    position: relative;
+}
+.link-nav::after{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    background-color: rgb(208, 208, 5);
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+.link-nav:hover::after{
+    transform: scaleX(1);
+}
+.drawer{
+    display: none;
+    z-index: 10;
+
+}
+.profile{
+    z-index: 1;
+}
+@media screen and (max-width: 1000px) {
+    .links-header{
+        display: none;
+    }
+    .text-logo{
+        display: none;
+    }
+    .drawer{
+        display: block;
+    }
+    .navbar{
+        background: #CBCB2D;
+        width: 100vw;
+    }
+}
+@media screen and (max-width: 400px) {
+    .form-control{
+        display: none;
+    }
+}

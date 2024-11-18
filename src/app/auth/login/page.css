@@ -1,0 +1,104 @@
+@media screen and (max-width: 1200px) {
+.dont{
+    display: none;
+}
+
+} 
+@media screen and (max-width: 1280px) {
+    .form-login{
+        height: 36vw;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .nm-icon{
+        display: none;
+    }
+    .pw-icon{
+        display: none;
+    }
+    .body{
+        overflow-x: visible;
+        overflow-y: visible;
+    }
+    .form{
+        margin-top: -10vw;
+        border: hidden;
+        background: transparent;
+    }
+    .name{
+        margin-left: 2vw;
+    }
+    .password{
+        margin-left: 2vw;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .body{
+        margin-top: 10vw;
+    }
+}
+@media screen and (max-width: 950px) {
+    .body{
+        margin-top: -10vw;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .form{
+        width: 40vw;
+    }
+    .fillup-box{
+        margin-top: -10vw;
+    }
+}
+@media screen and (max-width: 550px) {
+    .nm-input{
+        width: 40vw;
+    }
+    .pw-input{
+        width: 40vw;
+    }
+}
+@media screen and (max-width: 412px) {
+    .logo-text{
+        font-size: 10vw;
+        width: 15vw;
+    }
+    .forget{
+        width: 15vw;
+        font-size: 15px;
+    }
+    .join-us{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .forget{
+      font-size: 12x;
+    }
+    .login{
+        margin-left: 1vw;
+    }
+}
+@media screen and (max-width: 310px) {
+    .nm-input{
+        width: 50vw;
+        margin-left: -1vw;
+    }
+    .pw-input{
+        width: 50vw;
+        margin-left: -1vw;
+    }
+    .join-us{
+        font-size: 13px;
+    }
+    .logo-text{
+        margin-left: 1vw;
+    }
+    .forget{
+        font-size: 12px;
+        margin-left: -1vw;
+    }
+    .login{
+        margin-left: 6vw;
+    }
+}

@@ -1,0 +1,32 @@
+.header-container{
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.8);
+}
+@media screen and (max-width: 1000px) {
+    .react-active-removal{
+        display: none;
+    }
+    .header-nav-cover{
+        margin-right: 5vw;
+    }
+    .react-active-show{
+        position: absolute;
+        display: flex;
+        gap: 20px;
+        left: 40%;
+        padding: 10px;
+    }
+  }
+  @media screen and (max-width: 1250px) {
+    .phone-no{
+       padding-left: 20px;
+    }
+  }
+  @media screen and (max-width: 1100px) {
+    .phone-no{
+       padding-left: 3vw;
+    }
+  }
+
+body{
+    overflow-x: hidden;
+}

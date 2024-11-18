@@ -1,0 +1,10 @@
+.list-ul-footer{
+    list-style-type:circle
+}
+.footer-text-line:hover,.footer-icon-home:hover{
+    color: rgb(226, 255, 5);
+
+}
+.fb:hover{
+    color: rgb(0, 10, 155);
+}
